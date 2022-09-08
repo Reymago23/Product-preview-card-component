@@ -651,6 +651,14 @@ video {
   padding-bottom: 1rem;
 }
 
+.font-\[\'Monserrat\'\] {
+  font-family: 'Monserrat';
+}
+
+.font-\[\'Fraunces\'\] {
+  font-family: 'Fraunces';
+}
+
 .text-4xl {
   font-size: 2.25rem;
   line-height: 2.5rem;
@@ -666,13 +674,12 @@ video {
   line-height: 1rem;
 }
 
-.text-xl {
-  font-size: 1.25rem;
-  line-height: 1.75rem;
-}
-
 .font-bold {
   font-weight: 700;
+}
+
+.font-light {
+  font-weight: 300;
 }
 
 .tracking-widest3 {
@@ -756,39 +763,8 @@ video {
     margin-right: auto;
   }
 
-  .xl\:h-3\/4 {
-    height: 75%;
-  }
-
-  .xl\:h-96 {
-    height: 24rem;
-  }
-
-  .xl\:w-2\/4 {
-    width: 50%;
-  }
-
   .xl\:w-3\/4 {
     width: 75%;
-  }
-
-  .xl\:w-full {
-    width: 100%;
-  }
-
-  .xl\:object-contain {
-    -o-object-fit: contain;
-       object-fit: contain;
-  }
-
-  .xl\:object-cover {
-    -o-object-fit: cover;
-       object-fit: cover;
-  }
-
-  .xl\:object-fill {
-    -o-object-fit: fill;
-       object-fit: fill;
   }
 
   .xl\:py-6 {
@@ -796,31 +772,17 @@ video {
     padding-bottom: 1.5rem;
   }
 
-  .xl\:text-8xl {
-    font-size: 6rem;
-    line-height: 1;
-  }
-
   .xl\:text-3xl {
     font-size: 1.875rem;
     line-height: 2.25rem;
   }
 
-  .xl\:text-7xl {
-    font-size: 4.5rem;
-    line-height: 1;
+  .xl\:font-black {
+    font-weight: 900;
   }
 }
 
 @media (min-width: 1536px) {
-  .\32xl\:m-8 {
-    margin: 2rem;
-  }
-
-  .\32xl\:w-3\/5 {
-    width: 60%;
-  }
-
   .\32xl\:p-8 {
     padding: 2rem;
   }

@@ -6,7 +6,7 @@ module.exports = {
       letterSpacing: {
         widest3: '0.3em',
         widest4: '0.4em'
-      }
+      },
     },
   },
   plugins: [],
