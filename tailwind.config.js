@@ -2,7 +2,12 @@
 module.exports = {
   content: ["*.html"],
   theme: {
-    extend: {},
+    extend: {
+      letterSpacing: {
+        widest3: '0.3em',
+        widest4: '0.4em'
+      }
+    },
   },
   plugins: [],
 }
